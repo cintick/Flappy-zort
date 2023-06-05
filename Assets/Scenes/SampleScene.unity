@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4590542, y: 0.3575914, z: -0.055348396}
+  m_LocalPosition: {x: 0.4590542, y: 0.3575914, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 877937073}
   - component: {fileID: 877937072}
   - component: {fileID: 877937076}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Osurgan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &946906840
 GameObject:
   m_ObjectHideFlags: 0
