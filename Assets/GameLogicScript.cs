@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameLogicScript : MonoBehaviour
+
 {
 
     public int playerScore;
@@ -20,6 +21,6 @@ public class GameLogicScript : MonoBehaviour
 
     public void restartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    SceneManager.LoadScene("MainMenu");
+}
 }

@@ -24,5 +24,14 @@ public class MainCharOsurgan : MonoBehaviour
         }
     }
 
-    
+    void flyup()
+    {
+        OsurganRigidBody.velocity = FlapStrenght * Vector2.up;
+    }
+
+    private void FixedUpdate()
+    {
+        
+    }
+
 }
