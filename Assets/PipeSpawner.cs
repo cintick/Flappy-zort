@@ -8,6 +8,7 @@ public class PipeSpawner : MonoBehaviour
     public GameObject pipes;
     private float timer = 0.0f;
     private int seconds;
+    public int PipeInterval;
 
     void Start()
     {
@@ -20,7 +21,7 @@ public class PipeSpawner : MonoBehaviour
         timer += Time.deltaTime;
         seconds = (int)(timer % 60);
 
-        if (seconds == 3)
+        if (seconds == PipeInterval)
         {
             Spawnpipe();
         }
